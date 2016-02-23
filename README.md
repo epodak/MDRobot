@@ -29,8 +29,7 @@ Software for this project is in part thanks to the great work of the following t
 * 3S Smart Software Systems for Codesys - Thanks for providing Codesys on the Raspberry Pi! - https://www.codesys.com/
 * Raspberry Pi foundation for the wonderful Raspberry Pi - https://www.raspberrypi.org/
 * Paul Stoffregen and PJRC.com for the wonderful Teensy 3.1 development board - https://www.pjrc.com/teensy/teensy31.html
-* Pymodbus library team at https://pymodbus.readthedocs.org/en/latest/#
-* 
+* Pymodbus library team at https://pymodbus.readthedocs.org/en/latest/#* 
 
 
 
