@@ -21,7 +21,7 @@ All of the necessary design files for the system, will be available in this repo
 
 Software for this project is in part thanks to the great work of the following teams and individuals:
 * Arduino team that develops and maintains versatile [Arduino IDE](https://www.arduino.cc/)
-* [adafruit](https://www.adafruit.com/) providing several of the Codesys device files (only one of numerous examples of open software adafruit contributes to community)
+* [adafruit](https://www.adafruit.com/) providing several of the Codesys device files, and the source of wonderful hardware like the Ultimate GPS Hat (only one of numerous examples of open software adafruit contributes to community) 
 * Dan Mandle http://www.danmandle.com/blog/getting-gpsd-to-work-with-python/ for his python script to work with GPSd daemon.
 * GPSd daemon team - http://www.catb.org/gpsd/
 * 3S Smart Software Systems for Codesys - Thanks for providing Codesys on the Raspberry Pi! - https://www.codesys.com/
