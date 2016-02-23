@@ -17,6 +17,8 @@ Finally, the operator will have several points of control for the system.  A sma
 
 All of the necessary design files for the system, will be available in this repository, including source code, board design files, BOMS, schematics, and other relevant information.
 
+See my blog for more info on the build: http://fixstuff-thots.blogspot.com/
+
 ## Credits
 
 Software for this project is in part thanks to the great work of the following teams and individuals:
