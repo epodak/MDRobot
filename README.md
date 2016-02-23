@@ -26,7 +26,7 @@ The on-board Teensy drives four solid state relays, and has four 12bit A/D chann
 For video, the Pi utilizes a 5MP Pi Camera to provide streaming video embedded inside the Pi's web browser GUI.  The Pi's web browser GUI can be controlled remotely from additional computers on the network, and can also be recorded using standard desktop recording software such as FRAPS or Camtasia.  
 
 ![MD Robot sample Codesys debugging online screen](Photos/screenshot_012316.jpg)
-Another Example of Codesys GUI
+Robot control via web page with Codesys GUI
 
 Eventually, a high level Windows PC will host a Azure based GUI, and will be interfaced to the main supervisory Pi via Modbus TCP. Control and operator interaction with the Azure GUI will be from a remote laptop via a VNC client/server connection, if needed.  This PC will also host the Kinect interface, the Flowstone Audio susbsystem, and the Unreal engine based 3D virtual world interface.  The eventual goal is to control the system through the 3D virtual world interface.  An additional Pi will be used in conjunction with a RoboPi daughterboard.  This board will interface to the Robot's ulrasonic sensors, and main wheel encoder sensors.  This Pi will also run a Codesys runtime, and will provide feedback data from the sensors back to the supervisor Pi.
 
