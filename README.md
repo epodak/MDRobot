@@ -14,6 +14,7 @@ The MD Robot has several major components in the overall system, with space desi
 The first major component is the power distribution system.  The robot is powered from dual 12V, 35ah batteries with a 600W sinewave inverter.  The battery's directly power the motor amplifier board, a dual 2X25 Sabertooth amplifier.  The inverter powers the controls, which include 5V for the various SBC boards such as the Raspberry Pis, the 12V which powers the WIFI router, 24V which powers the contactors and brakes, and +/- 15V which powers the current sensors and metal detector circuitry.
 
 ![MD Robot showing batteries and both lids open](Photos/IMG_20160203_212748.jpg)
+Robot with both lids open showing batteries, power supplies, etc.
 
 The second major component is the main on-board supervisory control system comprised of a high-level Windows PC running Azure, with a SQL server historian, and several smaller Linux-based supervisory controllers running on Raspberry Pi SBCs.  The Main Raspberry Pi SBC will host an industrial softPLC software runtime from Codesys.  The Pi interfaces to a baseboard via I2C which houses a Teensy 3.1 microcontroller, a 10 DOF IMU from Adafruit, and a 4ch I2C based DAC.  The Teensy drives the 4 solid state relays, and has 4 A/D channels utilized with buffering provided on the base board.  The solid state relays drive the ESTOP circuit and the brakes on the robot.  The 4ch DAC drives the dual analog-controlled Sabertooth motor amplifier.  The Pi will utilize a 5MP Pi Camera to provide streaming video embedded in the Pi's web browser GUI.  The Pi's web browser GUI can be controlled remotely from additional computers on the network, and can also be recorded using standard desktop recording software such as FRAPS or Camtasia.  The high level Windows PC will host a Azure based GUI, and is interfaced to the main supervisory Pi via Modbus TCP. Control and operator interaction with the Azure GUI will be from a remote laptop via a VNC client/server connection, if needed.  This PC will also host the Kinect interface, the Flowstone Audio susbsystem, and the Unreal engine based 3D virtual world interface.  The eventual goal is to control the system through the 3D virtual world interface.  An additional Pi is used in conjunction with a RoboPi daughterboard.  This board interfaces to the Robot's ulrasonic sensors, and main wheel encoder sensors.  The Pi runs a Codesys runtime, and provides feedback data from the sensors back to the supervisor Pi.
 
@@ -27,8 +28,12 @@ The fourth major component is the metal detecting subsystem, which is comprised 
 ![MD Robot sample Codesys web page GUI](Photos/Basic.Control.jpg)
 Example of Codesys Gui
 
+
+
 ![MD Robot sample Codesys debugging online screen](Photos/screenshot_012316.jpg)
-Example of Codesys during debuggin in online mode
+Another Example of Codesys GUI
+
+
 
 Finally, the operator will have several points of control for the system.  A small hand pendant will be used for basic positioning and driving tasks.  This pendant will utilize an ESP8266 Wifi processor based board such as the Adafruit Huzzah coupled with e Teensy 3.1, or similar.  A dual-axis Joystick along with several buttons, and a LCD readout will provide basic control, as well as the ability to remotely ESTOP the robot in case of emergency.  A laptop connected to the Robot's Wifi network, provides a base station Operator interface, using a VNC connection to the high level Windows PC on the robot.  Eventually, a 3D virtual environment client will be located here, and will access the server.
 
