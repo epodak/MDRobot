@@ -3,6 +3,10 @@ Design files for Metal Detecting Robot
 
 The MD Detecting Robot is a robotic platform that is designed to tow a metal detector coil array and scan an open area either automatically or manually.  Towing the coil allows the detection circuitry to not detect off the metal of the robot itself.  The robot can either autonomously "scan" a field, or can be teleoperated for manual operation.  Various patterns such as back and forth, or circular spiral patterns are possible.  The platform can be also used for general purpose robotics development.
 
+![MD Robot Base Platform](Photos/IMG_20151224_203728.jpg)
+
+![MD Robot Base Platform](Photos/IMG_20160130_121328.jpg)
+
 The MD Robot has several major components in the overall system, with space designed in to add several more if needed. 
 
 The first major component is the power distribution system.  The robot is powered from dual 12V, 35ah batteries with a 600W sinewave inverter.  The battery's directly power the motor amplifier board, a dual 2X25 Sabertooth amplifier.  The inverter powers the controls, which include 5V for the various SBC boards such as the Raspberry Pis, the 12V which powers the WIFI router, 24V which powers the contactors and brakes, and +/- 15V which powers the current sensors and metal detector circuitry.
