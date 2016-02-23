@@ -24,9 +24,9 @@ Software for this project is in part thanks to the great work of the following t
 * [adafruit](https://www.adafruit.com/) providing several of the Codesys device files (only one of numerous examples of open software adafruit contributes to community)
 * Dan Mandle http://www.danmandle.com/blog/getting-gpsd-to-work-with-python/ for his python script to work with GPSd daemon.
 * GPSd daemon team - http://www.catb.org/gpsd/
-* 3S Smart Software Systems for Codesys - Thanks for providing Codesys on the Raspberry Pi!
-* Raspberry Pi foundation for the wonderful Raspberry Pi
-* Paul Stoffregen and PJRC.com for the wonderful Teensy 3.1 development board
+* 3S Smart Software Systems for Codesys - Thanks for providing Codesys on the Raspberry Pi! - https://www.codesys.com/
+* Raspberry Pi foundation for the wonderful Raspberry Pi - https://www.raspberrypi.org/
+* Paul Stoffregen and PJRC.com for the wonderful Teensy 3.1 development board - https://www.pjrc.com/teensy/teensy31.html
 
 
 
