@@ -16,3 +16,17 @@ The fourth major component is the metal detecting subsystem, which is comprised 
 Finally, the operator will have several points of control for the system.  A small hand pendant will be used for basic positioning and driving tasks.  This pendant will utilize an ESP8266 Wifi processor based board such as the Adafruit Huzzah coupled with e Teensy 3.1, or similar.  A dual-axis Joystick along with several buttons, and a LCD readout will provide basic control, as well as the ability to remotely ESTOP the robot in case of emergency.  A laptop connected to the Robot's Wifi network, provides a base station Operator interface, using a VNC connection to the high level Windows PC on the robot.  Eventually, a 3D virtual environment client will be located here, and will access the server.
 
 All of the necessary design files for the system, will be available in this repository, including source code, board design files, BOMS, schematics, and other relevant information.
+
+## Credits
+
+Software for this project is in part thanks to the great work of the following teams and individuals:
+* Arduino team that develops and maintains versatile [Arduino IDE](https://www.arduino.cc/)
+* [adafruit](https://www.adafruit.com/) providing several of the Codesys device files (only one of numerous examples of open software adafruit contributes to community)
+* Dan Mandle http://dan.mandle.me for his python script to work with GPSd daemon.
+* GPSd daemon team - http://www.catb.org/gpsd/
+* 3S Smart Software Systems for Codesys - Thanks for providing Codesys on the Raspberry Pi!
+* Raspberry Pi foundation for the wonderful Raspberry Pi
+* Paul Stoffregen and PJRC.com for the wonderful Teensy 3.1 development board
+
+
+
