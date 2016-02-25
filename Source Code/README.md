@@ -8,4 +8,5 @@ The python script, gpsdData.py, is run from Codesys to utilize the gpsd daemon-s
 
 The sketch_Teensy_MDRobot.ino is the Arduino sketch file for the Teensy to act as an I2C slave to the Codesys Pi.
 
-
+The folder Robot_R4_pdfs contains all of the project's POUs, FBs, and METHODs used.  Everything is in ST (Structured text). 
+**Note: A couple of these are unmodified from the original samples from Codesys and the OSCAT libraries, but are included for clarity.
